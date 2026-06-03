@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // Libreria prompt
 
 public class CadenasTexto {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class CadenasTexto {
         System.out.println(nombre.equals("JEAN"));
 
         // PROMPT de JAVA
-        Scanner consola = new Scanner(System.in);
+        Scanner consola = new Scanner(System.in); // Creacion prompt - consola = prompt o input
         System.out.print("Ingresa una contraseña: ");
         String contraseniaIngresada = consola.nextLine();
         System.out.println(CONTRASENIA.equalsIgnoreCase(contraseniaIngresada));

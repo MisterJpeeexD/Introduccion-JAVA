@@ -19,7 +19,7 @@ public class Main {
 
         final double PI = 3.14; // Buena práctica trabajar con mayúsculas
         System.out.println("PI = " + PI);
-        System.out.printf("Mi edad es %d, mi altura es %.2f, %s, es %b, que la letra a es %c",numero,tipoDouble,tipoString, isReal, tipoCaracter); // %d double, %f flotante, %.2f para recortar a 2 decimales
+        System.out.printf("Mi edad es %d, mi altura es %.2f, %s, es %b, que la letra a es %c",numero,tipoDouble,tipoString, isReal, tipoCaracter); // %d entero, %f double, %.2f para recortar a 2 decimales
         System.out.printf("""
         Mi edad es %d,
         mi altura es %.2f,

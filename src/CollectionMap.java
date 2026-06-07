@@ -44,7 +44,7 @@ public class CollectionMap {
             System.out.println(nombre);
         }
 
-        // Recorrer la seccion completa
+        // Recorrer la sección completa
         System.out.println("MAP");
         for(Map.Entry<String, Integer> infousers : sueldos.entrySet()){
             System.out.println(infousers.getKey());

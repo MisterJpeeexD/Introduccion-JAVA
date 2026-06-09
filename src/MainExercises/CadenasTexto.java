@@ -1,3 +1,5 @@
+package MainExercises;
+
 import java.util.Scanner; // Libreria prompt
 
 public class CadenasTexto {

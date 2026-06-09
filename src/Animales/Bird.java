@@ -10,7 +10,7 @@ public class Bird extends Animals {
         this.size = size;
     }
 
-    void fly(){
+    public void fly(){
         System.out.println(name + " esta volando");
     }
 }
